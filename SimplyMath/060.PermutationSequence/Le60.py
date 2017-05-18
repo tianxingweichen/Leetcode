@@ -6,7 +6,6 @@ class Solution(object):
             d = 1
             for z in range(1,n-i):
                 d = d * z
-            print(d)
             j = 1
             while k>(d*j):
                 j = j + 1
